@@ -1,0 +1,64 @@
+/*
+Template Name: Education Board
+File: Gallery CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#gallery{
+	display:block;
+	width:100%;
+	height:auto;
+	line-height:1.6em;
+	overflow:hidden;
+	}
+
+#gallery ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#gallery li{
+	display:block;
+	float:left;
+	width:370px;
+	height:390px;
+	margin:0 24px 24px 0;
+	padding-right:20px;
+	padding:0;
+	overflow:hidden;
+	}
+	
+	ul.#pagination ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:solid 2px #06F;
+		}
+	#pagination li{
+	display:inline;
+	margin:0 24px 24px 0;
+	float:left;
+	padding:0;
+	overflow:hidden;
+	}
+
+#gallery li a img{
+	display:block;
+	width:300px;
+	height:380px;
+	margin:0;
+	padding:4px;
+	
+	border:1px solid #D8D8D8;
+	}
+
+#gallery li a:hover img{
+	border-color:#333333;
+	}
+
+#gallery li.last{
+	margin-right:0;
+	}
